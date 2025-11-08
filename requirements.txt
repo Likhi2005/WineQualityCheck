@@ -1,5 +1,11 @@
+# local package install
+-e .
+
+# third party packages
 dvc
 dvc[gdrive]
 scikit-learn
 PyYAML
 pandas
+pytest
+tox

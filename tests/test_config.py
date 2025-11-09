@@ -4,7 +4,7 @@ class NotInRange(Exception):
     def __init__(self,message="Value not in ramge"):
         # self.input_=input_
         self.message=message
-        auper().__init__(self.message)
+        super().__init__(self.message)
         
 
 def test_generic():
